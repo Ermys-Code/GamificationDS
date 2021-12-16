@@ -1,0 +1,5 @@
+numbers = str(input("Input a list of coma-separated numbers: "))
+numbers = ''.join(numbers.split())
+numList = numbers.split(",")
+numListClean = list(dict.fromkeys(numList))
+print(f"\n{numListClean}")
